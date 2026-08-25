@@ -213,3 +213,7 @@ Johannes Kepler University Linz
 # Contact
 
 For questions regarding reproducibility or execution, please contact the author: aojutiku@live.com
+
+## Data & Checkpoints
+- Trained checkpoints: https://huggingface.co/2undeoju/xlstm-protein-checkpoints
+- Training data: https://huggingface.co/datasets/2undeoju/xlstm-protein-training-data
