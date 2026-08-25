@@ -1,8 +1,8 @@
-# xLSTM Protein Language Modelling Under Resource Constraints — Reproducible Environment and Execution Guide
+# xLSTM | Transformers(ESM2) | Protein Language Modelling Under Resource Constraints 
 
 This repository contains the implementation of the xLSTM-based protein language model developed for the MSc thesis:
 
-**"xLSTM for Bi-directional Protein Modelling Under Resource Constraints"**
+**"xLSTM for Bi-directional Protein Language Modelling Under Resource Constraints"**
 Johannes Kepler University Linz, 2026
 
 ## Overview
