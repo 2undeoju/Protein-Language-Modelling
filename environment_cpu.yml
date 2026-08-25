@@ -1,0 +1,31 @@
+name: thesis_cpu
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - seaborn
+  - biopython
+  - tqdm
+  - requests
+  - pyyaml
+  - pip:
+      # PyTorch CPU (pip will choose the right build for mac/windows)
+      - torch==2.7.1
+      - torchvision==0.22.1
+      - torchaudio==2.7.1
+
+      # Your ML stack (match your server versions)
+      - transformers==4.53.2
+      - tokenizers==0.21.2
+      - safetensors==0.5.3
+      - huggingface-hub==0.33.4
+      - einops==0.8.1
+      - omegaconf==2.3.0
+      - wandb==0.21.0
+      - xlstm==2.0.4
+      - mlstm-kernels==2.0.0

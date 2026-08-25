@@ -1,0 +1,75 @@
+================================================================================
+PROTEIN LANGUAGE MODEL - COMPLETE THESIS REPORT
+================================================================================
+Generated: 2026-02-21 19:29:01
+
+================================================================================
+UPSTREAM TRAINING SUMMARY
+================================================================================
+Experiment                                      .pt   .pkl     Status
+---------------------------------------------------------------------------
+esm2_baseline_lr1e-3_w1k                        YES    YES   COMPLETE
+esm2_baseline_lr1e-3_w2k                        YES    YES   COMPLETE
+esm2_baseline_lr4e-4_w1k                        YES    YES   COMPLETE
+esm2_baseline_lr4e-4_w2k                        YES    YES   COMPLETE
+esm2_lr1e-3_w1000                               YES    YES   COMPLETE
+esm2_lr1e-3_w2000                               YES    YES   COMPLETE
+esm2_lr4e-4_w1000                               YES    YES   COMPLETE
+esm2_lr4e-4_w2000                               YES    YES   COMPLETE
+mlstm_1layer_lr1e-3_w1k                         YES    YES   COMPLETE
+mlstm_1layer_lr1e-3_w2k                         YES    YES   COMPLETE
+mlstm_1layer_lr4e-4_w1k                         YES    YES   COMPLETE
+mlstm_1layer_lr4e-4_w2k                         YES    YES   COMPLETE
+mlstm_6layer_lr1e-3_w1k                         YES    YES   COMPLETE
+mlstm_6layer_lr1e-3_w2k                         YES    YES   COMPLETE
+mlstm_6layer_lr4e-4_w1k                         YES    YES   COMPLETE
+mlstm_6layer_lr4e-4_w2k                         YES    YES   COMPLETE
+mlstm_12layer_lr1e-3_w1k                        YES    YES   COMPLETE
+mlstm_12layer_lr1e-3_w2k                        YES    YES   COMPLETE
+mlstm_12layer_lr4e-4_w1k                        YES    YES   COMPLETE
+mlstm_12layer_lr4e-4_w2k                        YES    YES   COMPLETE
+mlstm_lr1e-3_w1000                              YES    YES   COMPLETE
+mlstm_lr1e-3_w2000                              YES    YES   COMPLETE
+mlstm_lr4e-4_w1000                              YES    YES   COMPLETE
+mlstm_lr4e-4_w2000                              YES    YES   COMPLETE
+---------------------------------------------------------------------------
+Complete: 24/24
+
+================================================================================
+BEST UPSTREAM MODELS (by final validation perplexity)
+================================================================================
+
+Top 5 models:
+  1. esm2_lr1e-3_w2000: 12.7587
+  2. esm2_lr1e-3_w1000: 12.7619
+  3. esm2_baseline_lr1e-3_w1k: 12.8015
+  4. esm2_baseline_lr1e-3_w2k: 12.8158
+  5. esm2_baseline_lr4e-4_w2k: 12.8167
+
+Best ESM2:  esm2_lr1e-3_w2000 (12.7587)
+Best mLSTM: mlstm_12layer_lr1e-3_w2k (13.1605)
+
+================================================================================
+DOWNSTREAM EVALUATION RESULTS (FLIP Benchmark)
+================================================================================
+
+Task                 ESM2        mLSTM          Δ     mLSTM%
+------------------------------------------------------------
+GB1                0.5707       0.5169    +0.0538      90.6%
+AAV                0.5884       0.3932    +0.1951      66.8%
+MELTOME            0.5958       0.5788    +0.0169      97.2%
+------------------------------------------------------------
+AVERAGE            0.5849       0.4963    +0.0886      84.9%
+
+================================================================================
+OUTPUT LOCATIONS
+================================================================================
+📁 Training data:         training_data/
+📊 Upstream plots:        plots_depth_comparison/
+📊 Downstream plots:      results/plots/
+📁 Results:               results/
+📄 Tables (LaTeX/CSV):    thesis_tables/
+📄 Reports:               reports/
+💾 Server outputs:        thesis_outputs/
+💾 Local outputs:         thesis_outputs/
+================================================================================

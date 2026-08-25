@@ -1,0 +1,58 @@
+# PyTorch CPU (available on Intel macOS)
+torch==2.2.2
+torchvision==0.17.2
+torchaudio==2.2.2
+
+# Transformers stack
+transformers==4.53.2
+tokenizers==0.21.2
+safetensors==0.5.3
+huggingface-hub==0.33.4
+
+# Utilities / configs
+einops==0.8.1
+omegaconf==2.3.0
+wandb==0.21.0
+
+# Optional: only if your code uses it explicitly
+#xlstm==2.0.4
+
+# IMPORTANT: likely fails on macOS (Linux/CUDA/compiled); install only if it works
+#mlstm-kernels==2.0.0
+
+
+# PyTorch CPU (pip automatically installs CPU version on Mac/Windows)
+#torch==2.7.1
+#torchvision==0.22.1
+#torchaudio==2.7.1
+
+## Protein LM / transformers stack
+#transformers==4.53.2
+#tokenizers==0.21.2
+#safetensors==0.5.3
+#huggingface-hub==0.33.4
+#einops==0.8.1
+#omegaconf==2.3.0
+#xlstm==2.0.4
+#mlstm-kernels==2.0.0
+
+## Scientific stack
+#numpy==2.3.1
+#pandas==2.3.1
+#scipy==1.16.0
+#matplotlib==3.10.3
+#seaborn==0.13.2
+
+## Biology
+#biopython==1.85
+
+## Utilities
+#tqdm==4.67.1
+#requests==2.32.4
+#pyyaml==6.0.2
+
+## Logging
+#wandb==0.21.0
+
+
+
